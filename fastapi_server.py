@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from ultimate import main_run
+from vuln_agent import main_run
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
